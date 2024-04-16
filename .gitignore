@@ -1,0 +1,17 @@
+# Ignore env files
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore .vscode
+.vscode
+
+# Ignore python cache
+__pycache__/
+
+# Ignore .pytest_cache
+.pytest_cache/

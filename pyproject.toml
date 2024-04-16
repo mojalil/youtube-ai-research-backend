@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-agent-backend"
+version = "0.1.0"
+description = ""
+authors = ["motypes <mohammed.jalil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.13"
+crewai = {version = "^0.28.8", extras = ["tools"]}
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
